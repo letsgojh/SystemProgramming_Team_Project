@@ -1,2 +1,0 @@
-[12:43:58] () Server Connect Success
-[12:43:59] (test1) Login Success (test1)
