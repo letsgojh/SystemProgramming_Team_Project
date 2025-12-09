@@ -55,7 +55,7 @@ clean:/
 	@echo "🧹 Cleaning build files..."
 	rm -f $(SERVER_DIR)/*.o $(CLIENT_DIR)/*.o $(COMMON_DIR)/*.o \
 	      $(SERVER_TARGET) $(CLIENT_TARGET) \
-	      $(SERVER_DIR)/*.txt $(CLIENT_DIR)/*.txt
+	      $(SERVER_DIR)/*.txt $(CLIENT_DIR)/*.txt dummy.txt
 	@echo "✅ Clean complete!"
 
 run_server:
@@ -65,6 +65,10 @@ run_client:
 	./$(CLIENT_TARGET)
 
 rebuild: clean all
+
+dummy : 
+	bash -c "head -c 300M /dev/urandom | base64 > dummy.txt"
+
 
 ##########################################################
 # End of Makefile
