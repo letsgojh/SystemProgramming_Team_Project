@@ -137,16 +137,20 @@ make
 ```bash
 make run_server
 ```
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b6b4c535-af97-4933-9031-54685b1ab23a" />
+
 
 #### 4. execute Client
 
 ```bash
 make run_client
 ```
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/b7caebb3-d6fa-4ddd-af81-561380bc84a3" />
+
 
 #### 5. input id and password into users.txt
 
-- users.txt에 본인의 아이디와 비밀번호를 공백 단위로 입력합니다. ex) qwer 1234 (ID : qwer, PW : 1234)
+- users.txt에 본인의 아이디와 비밀번호를 공백 단위로 입력한 뒤 로그인이 허용됩니다. ex) qwer 1234 (ID : qwer, PW : 1234)
 
 
 > ⚠️ 서버를 먼저 실행한 후, 클라이언트를 실행해야 합니다.
