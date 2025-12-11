@@ -1,4 +1,4 @@
-# ChatFileSystem
+# MU-ChatFT
 
 <br>
 
@@ -38,6 +38,10 @@ ChatFileSystem
 └── users.txt
 ```
 <br>
+
+## System Architecture
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bd0493cd-9e2b-42e6-b469-e37ffdd270c5" />
+
 
 ## 🧩 구성 요소
 
@@ -96,9 +100,9 @@ ChatFileSystem
 
 | 이름 | 역할 |
 |------------|------|
-| 유재환 | 클라이언트 UI, 서버 구축, 채팅기능, /upload,/download,/dm, /list 커맨드, 암호화/복호화, client,server log 기록 구현|
-| 우상영 | 발표/PPT 제작|
-| 김재민 | /refresh, /kick, /manual, /root 커맨드, 파일 폭파 기능 구현 |
+| 유재환 | select() 기반 기본 구조 설계 및 구축, 인증(Auth), 채팅(broadcast/dm), 파일 송수신 로직 담당, /upload, /download, /list 구현, 암호화, 로그 시스템, Client UI 개발 |
+| 우상영 | 프로젝트 초기 아이데이션 및 기능 명세 구상, 시스템 기능 방향성 정리 및 기술 리서치, 최종 발표자료(ppt) 설계 및 제작 총괄, 개발 과정 전반 구조 리뷰, UX 개선 제안|
+| 김재민 |/kick, /refresh, /root 개발, 파일 폭파 기능 및 예외처리 로직 구현, chunk 기반 전송 구조 고도화 및 안정화, 전송 간 발생 가능한 엣지 케이스 디버깅 |
 
 ## 🛠 개발 환경
 
