@@ -87,8 +87,8 @@ ChatFileSystem
 | 전체 채팅     | (기본 메시지 입력)        | 모든 사용자에게 메시지 전송     |
 | 커맨드 메뉴얼 출력     | `/manual`        | 실행가능 커맨드 메뉴얼 출력    |
 | 개인 메시지    | `/dm <user> msg`   | 특정 사용자에게 1:1 메시지    |
-| 파일 업로드    | `/upload <file>`   | 서버로 파일 전송           |
-| 파일 다운로드   | `/download <file>` | 서버에서 파일 받아오기        |
+| 파일 업로드    | `/upload <file>`   | 서버로 파일 전송(./SystemProgramming_Team_Project 디렉토리 내에 존재해야 업로드 됨)|
+| 파일 다운로드   | `/download <file>` | 서버에서 파일 받아오기(/server_storage 에서 /client로 파일 이동) |
 | 접속자 목록 조회 | `/list`            | 현재 접속 중인 사용자 확인     |
 | 루트 권한 양도  | `/root <user>`     | 관리자 권한을 다른 사용자에게 전달 |
 | 유저 강퇴     | `/kick <user>`     | 지정 사용자 서버에서 강제 종료   |
@@ -117,6 +117,8 @@ ChatFileSystem
 - 네트워크: TCP Socket + select() 기반 멀티플렉싱
 
 ## 🔧 빌드 & 실행
+
+### 0. Demo video : https://youtu.be/h1fj5TR7lu8
 
 ### 1. Clone Repository
 
